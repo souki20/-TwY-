@@ -1,0 +1,53 @@
+.footer-wrapper {
+  padding: 50px 0px 10px 0px;
+  text-align: center;
+  clear: left;
+  clear: right;
+  /* clearはフッターの回り込みを防ぐために必要 */
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* .footer-nav {
+} */
+
+.footer-nav-content {
+  display: flex;
+  padding: 0px 0px 0px 15px;
+  /* background-color: #6cc6c4; */
+  background-color: #3cba92;
+  border-radius: 6px;
+}
+
+.footer-nav-list {
+  /* background-color: #6cc6c4; */
+  height: 30px;
+  line-height: 30px;
+  align-items: center;
+  background: url(/image/bgFooterIcon.png) no-repeat 5px center;
+  padding: 0px 20px 0px 25px;
+}
+
+.footer-nav-item {
+  color: #fff;
+}
+
+.footer-address {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+}
+
+
+.copyright {
+  /* border-top: solid 2px #6CC6C4; */
+  border-top: solid 2px #3cba92;
+  /* padding: 10px 0px; */
+  font-size: 93%;
+}
+
+.footer-nav-item:hover {
+  color: #fff;
+  text-decoration: underline;  
+}

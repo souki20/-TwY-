@@ -1,0 +1,252 @@
+@media screen and (max-width:768px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    min-width: 0px;
+  }
+
+
+
+  /* header */
+
+  .header-wrapper,
+  .contents-wrapper,
+  .footer-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .header-wrapper {
+    margin: 0 0 20px 0;
+    height: auto;
+  }
+
+  .header-top {
+    display: block;
+    text-align: center;
+    /* margin: 0; */
+  }
+
+  .icon-left {
+    margin: 0;
+  }
+
+  .icon-right {
+    margin: 0;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+
+  .header-call-section {
+    width: 220px;
+    margin: 0 auto;
+  }
+
+  /* hamburger */
+  .hide-768 {
+    display: none;
+    transition: 0.3s;
+  }
+  .show-768 {
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .nav-section {
+    margin: 30px 10px;
+    /* display: none; */
+    border: none;
+  }
+
+  .nav-content {
+    /* display: inline; */
+    /* flex-wrap: wrap; */
+    /* height: auto; */
+    /* display: block; */
+    display: flex;
+    /* overflow: hidden; */
+    /* content: "";
+    display: block;
+    clear: both; */
+  }
+
+  .nav-content::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .nav-item {
+    /* float: left;
+    width: 50%; */
+    /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    border-radius: 6px;
+  }
+
+  .nav-title-ja {
+    font-size: 0.8em;
+  }
+  .nav-title-ja {
+    font-size: 0.2em;
+  }
+
+  .nav-item:hover {
+    /* background-image: linear-gradient(rgb(108,198,196)0%,rgb(156,227,225)100%); */
+    background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%);
+  }
+
+  .nav-link {
+    width: 100%;
+    /* width: 50vw; */
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+
+  .nav ul a:link {
+    /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .nav ul a:hover {
+    /* background-image: linear-gradient(rgb(108,198,196)0%,rgb(156,227,225)100%); */
+    background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%);
+  }
+
+  .content-right {
+    /* float: none; */
+    padding: 0 12px;
+    width: 100%;
+    margin-bottom: 3em;
+    /* clear: both; */
+  }
+
+  .content-right::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  .toppage-img img{
+    max-width: 100% ;
+  }
+
+  .new-information {
+    width: 100%;
+  }
+
+  .content-left {
+    float: none;
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .content-left::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* .footer-wrapper  {
+    padding-top: 100px;
+  } */
+
+  .footer {
+    padding: 0 12px;
+  }
+
+  
+  .footer-nav {
+    /* display: block; */
+    /* width: 100%; */
+    background-color: #f6f6f6;
+  }
+
+  /* .footer-nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  } */
+  
+  .footer-nav-content {
+    /* display: block; */
+    flex-wrap: wrap;
+    /* background-color: #6CC6C4; */
+    background-color: #3cba92;
+    border-radius: 6px;
+  }
+  
+  /* .footer-nav-list {
+    float: left;
+    background-color: #6cc6c4;
+  } */
+  
+  .footer-address {
+    display: block;
+    text-align: right;
+    padding: 15px 0 0 0;
+    height: auto;
+  }
+
+  /* .footer-address-text {
+    margin-top: 10px;
+  } */
+
+
+
+  /* HOME以外 */
+
+  .content-right-title {
+    line-height: 1.6;
+    height: auto;
+    padding: 12px 0 12px 20px;
+  }
+
+
+
+  /* パンクズリスト */
+
+  .bread-list-content {
+    height: auto;
+  }
+
+
+  /* 院長スタッフ紹介 */
+
+  .director-content {
+    display: block;
+  }
+
+  .staff-inner-left {
+    margin: 0;
+    text-align: center;
+  }
+
+  .staff-inner-left img {
+    max-width: 100%;
+  }
+
+
+  /* アクセス */
+
+  .map-content-bottom {
+    display: block;
+  }
+
+  .map-content-bottom div:first-child {
+    margin: 0;
+    text-align: center;
+  }
+
+  .map-content-top iframe {
+    width: 100%;
+  }
+
+}

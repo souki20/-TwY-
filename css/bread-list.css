@@ -1,0 +1,29 @@
+.bread-list-content {
+  text-align: left;
+  /* max-width: 920px; */
+  height: 15px;
+  line-height: 15px;
+  padding: 5px;
+  margin: -10px 0 10px;
+  font-size: 77%;
+}
+
+
+.bread-list li {
+  display: inline-block;
+}
+
+.bread-list a {
+  color: #4D82C4;
+  text-decoration: underline;
+}
+
+
+.bread-list li::after{
+  /* padding: 0 10px; */
+  content: ' > ';
+}
+
+.bread-list li:last-child::after {
+  display: none;
+}

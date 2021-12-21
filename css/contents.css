@@ -1,0 +1,364 @@
+.contents-wrapper {
+  max-width: 920px;
+  margin: 0 auto;
+  text-align: left;
+  /* white-space: nowrap; */
+  /* overflow-x: visible; */
+}
+
+.content-left {
+  float: left;
+  width: 260px;
+}
+
+.menu-title {
+  /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
+  /* background-color: background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);; */
+  /* background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
+  /* background-color: #16a085; */
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  color: #fff;
+  border-radius: 6px 6px 0px 0px;
+  font-size: 123.1%;
+  padding: 0 15px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* border: solid 1px #6CC6C4; */
+  border: solid 1px #3cba92;
+}
+
+.menu-item {
+  margin:0px 0px 20px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.menu-text-link01:hover .menu-text01 {
+  color: #6CC6C4;
+  color: #3cba92;
+}
+
+.menu-text-link02:hover .menu-text02 {
+  color: #AEC24C;
+}
+
+.menu-contents {
+  /* border: solid 1px #6CC6C4; */
+  border: solid 1px #3cba92;
+  /* margin:0px 0px 20px;
+  padding: 0px; */
+  padding-bottom: 20px;
+}
+
+
+.menu-list {
+  margin: 0px 15px;
+  padding: 0px 0px 0px 25px;
+  /* border-bottom: solid 1px #6CC6C4; */
+  border-bottom: solid 1px #3cba92;
+  /* background: url(../image/bgListIcon01.png) no-repeat 5px center; */
+}
+
+.menu-text01 {
+  padding: 8px 0px;
+  font-size: 108%;
+  font-weight: bold;
+  color: #595959;
+}
+
+.menu-text02 {
+  padding: 8px 0px;
+  font-size: 108%;
+  font-weight: bold;
+  color: #595959;
+}
+
+
+
+/* ここからHOME */
+.content-right {
+  float: right;
+  width: 640px;
+  /* white-space: nowrap;
+  overflow-x: scroll; */
+}
+
+
+.new-information {
+  background-color: #ffffff;
+  padding: 20px;
+  /* width: 640px; */
+}
+
+.new-information-title {
+  /* border-bottom: solid 3px #6CC6C4; */
+  border-bottom: solid 3px #3cba92;
+  margin-bottom: 15px;
+}
+
+.new-information-title-content {
+  font-size: 123%;
+  font-weight: bold;
+}
+
+.infomation-list {
+  margin: 0px 0px 15px 0px;
+  padding: 0px 10px 10px 10px;
+}
+
+.infomation-left {
+  float: left;
+  width: 11em;
+}
+
+.infomation-date {
+  font-weight: bold;
+  color: #515151;
+  line-height: 150%;
+  padding: 10px 0px;
+}
+
+.infomation-right {
+  border-bottom: dotted 1px #cccccc;
+  padding: 10px 10px 10px 11em;
+  color: #515151;
+  line-height: 150%;
+}
+
+.contents-wrapper::after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ここまでがHOME */
+
+/* ### */
+
+
+/* ここからCLINIC */
+.content-right-title {
+  font-size: 1.5em;
+  /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  color: #fff;
+  border-radius: 6px 6px 0px 0px;
+  /* border: solid 1px #6CC6C4; */
+  border: solid 1px #3cba92;
+  height: 60px;
+  line-height: 70px;
+  padding: 20px 0 20px 20px;
+}
+
+.content-right-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0 0 6px 6px;
+}
+
+.inner-title01 {
+  margin: 0 0 15px 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 123.1%;
+  /* border-bottom: solid 3px #6CC6C4; */
+  border-bottom: solid 3px #3cba92;
+}
+
+
+.text-box {
+  padding: 10px;
+}
+
+.shinnsatsubi-table {
+  margin: 0 0 20px;
+}
+
+.shinnsatsubi-table table {
+  width: 100%;
+  border-top: solid #999 1px;
+  border-left: solid #999 1px;
+}
+
+.shinnsatsubi-table th {
+  background-color: #d1d1d1;
+  border-right: solid #999 1px;
+  border-bottom: solid #999 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+.shinnsatsubi-table td {
+  border-right: solid #999 1px;
+  border-bottom: solid #999 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* ここまでがCLINIC */
+
+/* ### */
+
+
+
+/* ここからSERVICE */
+
+.inner-title {
+  margin: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 123.1%;
+  /* border-bottom: solid 3px #6CC6C4; */
+  border-bottom: solid 3px #3cba92;
+}
+
+/* ここまでがSERVICE */
+
+/* ### */
+
+
+/* ここからSTAFF */
+
+.director-content {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+
+.staff-inner-left {
+  /* float: left; */
+  margin: 0 20px 0 0 ;
+}
+
+.staff-inner-left p {
+  /* background-color: #6CC6C4; */
+  background-color: #3cba92;
+  color: #fff;
+  text-align: center;
+}
+
+/* .staff-inner-right {
+  float: right;
+} */
+
+.staff-inner-right p:first-child {
+  /* color: #6CC6C4; */
+  color: #3cba92;
+  font-size: 1.17em;
+  margin: 1em 0 1em 0;
+  font-weight: bold;
+}
+
+/* .staff-text-box {
+  clear: left;
+  clear: right;
+} */
+
+.content-right-item div:last-child img {
+  max-width: 100%;
+}
+
+.inner-title {
+  margin: 0 0 15px 0;
+}
+/* ここまでがSTAFF */
+
+/* ### */
+
+
+/* ここからACCESS */
+.map-content-top div:first-child {
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+}
+
+.map-content-top div a {
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: smaller;
+}
+
+.map-content-bottom {
+  display: flex;
+}
+
+.map-content-bottom div:first-child {
+  margin: 0 20px 0 0 ;
+}
+/* ここまでがACCESS */
+
+
+
+/* ### */
+
+/* ここからCONTACT */
+.required {
+  background-color: red;
+  color: #ffffff;
+  border-radius: 30px;
+  width: 60px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+
+.form-item {
+  margin: 0 10px 50px 10px;
+}
+
+.contact-label {
+  display: flex;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.contact-label p {
+  margin-right: 20px;
+}
+
+.contact-label h3 {
+  margin: 0;
+}
+
+.contact-form input[type="text"] {
+  width: 100%;
+  height: 40px;
+}
+
+.contact-form input[type="radio"] {
+  margin: 0px 5px 3px 5px;
+}
+
+.form-item label {
+  margin: 0px 30px 0px 0px;
+  cursor: pointer;
+}
+
+
+.form-item textarea[name="message"] {
+  width: 100%;
+  height: 300px;
+}
+
+.radio-button {
+  font-size: 15px;
+}
+
+.submit {
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.5;
+}
+
+.submit input[type="submit"] {
+  margin: 30px 0;
+  padding: 10px 100px;
+  background-color: #3F562A;
+  color: #ffffff;
+  border-radius: 30px;
+}
