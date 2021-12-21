@@ -85,8 +85,9 @@
   .nav-title-ja {
     font-size: 0.8em;
   }
-  .nav-title-ja {
-    font-size: 0.2em;
+  .nav-title-en {
+    /* font-size: 10%; */
+    display: none;
   }
 
   .nav-item:hover {
