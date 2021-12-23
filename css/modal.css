@@ -1,0 +1,62 @@
+.modal-window {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  max-width: 700px;
+  height: 80vh;
+  background-color: #dfdddd;
+  border-radius: 5px;
+  z-index: 11;
+  padding: 4rem;
+}
+
+.musk {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.button-close {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* width: 100px; */
+  padding: 1em;
+  background-color: orange;
+  color: #fff;
+  border-radius: 20rem;
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-left: 50px;
+}
+
+
+.modal-window > div{
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: column;
+  height: 100%;
+}
+.modal-form-button {
+  text-align: center;
+  margin-top: auto;
+}
+.form-contents {
+  display: flex;
+  margin: 20px 0;
+  border-bottom: 1px solid #000;
+}
+.form-contents p:first-child {
+  width: 30vw;
+}
