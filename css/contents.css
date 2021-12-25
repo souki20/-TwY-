@@ -16,7 +16,9 @@
   /* background-color: background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);; */
   /* background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
   /* background-color: #16a085; */
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+  /* background-image: linear-gradient(to top, #8284BC 0%, #070073 100%); */
+  background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
   color: #fff;
   border-radius: 6px 6px 0px 0px;
   font-size: 123.1%;
@@ -25,7 +27,8 @@
   display: flex;
   align-items: center;
   /* border: solid 1px #6CC6C4; */
-  border: solid 1px #3cba92;
+  /* border: solid 1px #3cba92; */
+  border: solid 1px #8284BC;
 }
 
 .menu-item {
@@ -35,8 +38,9 @@
 }
 
 .menu-text-link01:hover .menu-text01 {
-  color: #6CC6C4;
-  color: #3cba92;
+  /* color: #6CC6C4; */
+  /* color: #3cba92; */
+  color: #8284BC;
 }
 
 .menu-text-link02:hover .menu-text02 {
@@ -45,7 +49,8 @@
 
 .menu-contents {
   /* border: solid 1px #6CC6C4; */
-  border: solid 1px #3cba92;
+  /* border: solid 1px #3cba92; */
+  border: solid 1px #8284BC;
   /* margin:0px 0px 20px;
   padding: 0px; */
   padding-bottom: 20px;
@@ -56,7 +61,8 @@
   margin: 0px 15px;
   padding: 0px 0px 0px 25px;
   /* border-bottom: solid 1px #6CC6C4; */
-  border-bottom: solid 1px #3cba92;
+  /* border-bottom: solid 1px #3cba92; */
+  border-bottom: solid 1px #8284BC;
   /* background: url(../image/bgListIcon01.png) no-repeat 5px center; */
 }
 
@@ -93,7 +99,8 @@
 
 .new-information-title {
   /* border-bottom: solid 3px #6CC6C4; */
-  border-bottom: solid 3px #3cba92;
+  /* border-bottom: solid 3px #3cba92; */
+  border-bottom: solid 3px #8284BC;
   margin-bottom: 15px;
 }
 
@@ -142,11 +149,14 @@
 .content-right-title {
   font-size: 1.5em;
   /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+  background-image: linear-gradient(to top, #8284BC 0%, #070073 100%);
+  background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
   color: #fff;
   border-radius: 6px 6px 0px 0px;
   /* border: solid 1px #6CC6C4; */
-  border: solid 1px #3cba92;
+  /* border: solid 1px #3cba92; */
+  border: solid 1px #8284BC;
   height: 60px;
   line-height: 70px;
   padding: 20px 0 20px 20px;
@@ -164,7 +174,8 @@
   line-height: 50px;
   font-size: 123.1%;
   /* border-bottom: solid 3px #6CC6C4; */
-  border-bottom: solid 3px #3cba92;
+  /* border-bottom: solid 3px #3cba92; */
+  border-bottom: solid 3px #8284BC;
 }
 
 
@@ -212,7 +223,8 @@
   line-height: 50px;
   font-size: 123.1%;
   /* border-bottom: solid 3px #6CC6C4; */
-  border-bottom: solid 3px #3cba92;
+  /* border-bottom: solid 3px #3cba92; */
+  border-bottom: solid 3px #8284BC;
 }
 
 /* ここまでがSERVICE */
@@ -234,7 +246,8 @@
 
 .staff-inner-left p {
   /* background-color: #6CC6C4; */
-  background-color: #3cba92;
+  /* background-color: #3cba92; */
+  background-color: #8284BC;
   color: #fff;
   text-align: center;
 }
@@ -245,7 +258,8 @@
 
 .staff-inner-right p:first-child {
   /* color: #6CC6C4; */
-  color: #3cba92;
+  /* color: #3cba92; */
+  color: #8284BC;
   font-size: 1.17em;
   margin: 1em 0 1em 0;
   font-weight: bold;
@@ -370,4 +384,5 @@ input[type="button"]:hover {
 
 .error-input {
   margin: 0 0 10px 0;
+  color: red;
 }

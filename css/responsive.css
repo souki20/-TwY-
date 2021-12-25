@@ -78,7 +78,8 @@
     /* float: left;
     width: 50%; */
     /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+    background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
     border-radius: 6px;
   }
 
@@ -92,7 +93,8 @@
 
   .nav-item:hover {
     /* background-image: linear-gradient(rgb(108,198,196)0%,rgb(156,227,225)100%); */
-    background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%);
+    /* background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%); */
+    background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
   }
 
   .nav-link {
@@ -104,12 +106,14 @@
 
   .nav ul a:link {
     /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+    background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
   }
 
   .nav ul a:hover {
     /* background-image: linear-gradient(rgb(108,198,196)0%,rgb(156,227,225)100%); */
-    background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%);
+    /* background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%); */
+    background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
   }
 
   .content-right {
@@ -171,7 +175,8 @@
     /* display: block; */
     flex-wrap: wrap;
     /* background-color: #6CC6C4; */
-    background-color: #3cba92;
+    /* background-color: #3cba92; */
+    background-color: #8284BC;
     border-radius: 6px;
   }
   

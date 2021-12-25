@@ -15,7 +15,8 @@
   display: flex;
   padding: 0px 0px 0px 15px;
   /* background-color: #6cc6c4; */
-  background-color: #3cba92;
+  /* background-color: #3cba92; */
+  background-color: #8284BC;
   border-radius: 6px;
 }
 
@@ -42,7 +43,8 @@
 
 .copyright {
   /* border-top: solid 2px #6CC6C4; */
-  border-top: solid 2px #3cba92;
+  /* border-top: solid 2px #3cba92; */
+  border-top: solid 2px #8284BC;
   /* padding: 10px 0px; */
   font-size: 93%;
 }

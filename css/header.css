@@ -61,7 +61,8 @@
   /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
   border-radius: 6px;
   /* border: solid 1px #6CC6C4; */
-  border: solid 1px #3cba92;
+  /* border: solid 1px #3cba92; */
+  border: solid 1px #8284BC;
 }
 
 
@@ -78,13 +79,21 @@
 .nav ul a:link,
 .nav ul a:visited {
   /* background-image: linear-gradient(rgb(156,227,225)0%,rgb(108,198,196)100%); */
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+  /* background-image: linear-gradient(to top, #8284BC 0%, #070073 100%); */
+  background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
+  /* background-color: #070073; */
+  /* background-color: #211E55; */
+  /* background-color: #4347A2; */
+  /* background-color: #3C379E; */
 }
 
 .nav ul a:hover,
 .nav ul a:active {
   /* background-image: linear-gradient(rgb(108,198,196)0%,rgb(156,227,225)100%); */
-  background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%);
+  /* background-image: linear-gradient(to top, #3cba92 0%, #0ba360 100%); */
+  /* background-image: linear-gradient(to top, #8284BC 0%, #070073 100%); */
+  background-image: linear-gradient(to top, #070073 0%, #8284BC 100%);
 }
 
 
@@ -98,8 +107,10 @@
   align-items: center;
   /* border-right: solid 1px #71C9C7;
   border-left: solid 1px #99E1DF; */
-  border-right: solid 1px #0ba360;
-  border-left: solid 1px #3cba92;
+  /* border-right: solid 1px #0ba360; */
+  border-right: solid 1px #070073;
+  /* border-left: solid 1px #3cba92; */
+  border-left: solid 1px #8284BC;
   /* display: table; */
   position: relative;
 
@@ -115,7 +126,8 @@
   width: 100%;
   /* width100%が無かったらdivが狭まってnav-title-jaが２行になる */
   /* text-shadow: 1px 1px 2px #6cc6c4; */
-  text-shadow: 1px 1px 2px #3cba92;
+  /* text-shadow: 1px 1px 2px #3cba92; */
+  text-shadow: 1px 1px 2px #8284BC;
 }
 
 .nav-title-ja {
