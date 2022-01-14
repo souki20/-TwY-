@@ -376,6 +376,9 @@ input[type="button"]:hover {
   color: #ffffff;
   border-radius: 30px;
 }
+.submit a {
+  text-decoration: underline;
+}
 
 .input-red {
   border-radius: 8px;
