@@ -107,62 +107,62 @@ $(function() {
     }
 
     if(!$agree) {
-      $("input[type=checkbox]").before(
-        `<p class='error-input'>＊チェックを入れてください</p>`
-      )
+      // $("input[type=checkbox]").before(
+      //   `<p class='error-input'>＊チェックを入れてください</p>`
+      // )
       $required = false;
     }
 
     if($required) {
-      modalView();
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>お問い合わせ区分</p>
-          <p>${$requirement}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>お客様名</p>
-          <p>${$name}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>お客様名フリガナ</p>
-          <p>${$name_kana}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>会社名/組織名</p>
-          <p>${$company}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>電話番号</p>
-          <p>${$phone}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>メールアドレス</p>
-          <p>${$meil}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>ご希望の連絡方法</p>
-          <p>${$contact}</p>
-        </div>`
-      )
-      $(".modal-form-contents").append(
-        `<div class="form-contents">
-          <p>お問い合わせ内容</p>
-          <p>${$text}</p>
-        </div>`
-      )
+      // modalView();
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>お問い合わせ区分</p>
+      //     <p>${$requirement}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>お客様名</p>
+      //     <p>${$name}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>お客様名フリガナ</p>
+      //     <p>${$name_kana}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>会社名/組織名</p>
+      //     <p>${$company}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>電話番号</p>
+      //     <p>${$phone}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>メールアドレス</p>
+      //     <p>${$meil}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>ご希望の連絡方法</p>
+      //     <p>${$contact}</p>
+      //   </div>`
+      // )
+      // $(".modal-form-contents").append(
+      //   `<div class="form-contents">
+      //     <p>お問い合わせ内容</p>
+      //     <p>${$text}</p>
+      //   </div>`
+      // )
     } else {
       scroll();
       modalHide();

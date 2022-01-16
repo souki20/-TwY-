@@ -1,5 +1,18 @@
+body {
+  font: 13px/1.231 arial,helvetica,clean,sans-serif;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+* {
+  line-height: 180%;
+}
+button:hover,
+input:hover{
+  opacity: 0.6;
+}
+
+
 .modal-window {
-  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -9,54 +22,48 @@
   height: 80vh;
   background-color: #dfdddd;
   border-radius: 5px;
-  z-index: 11;
-  padding: 4rem;
+  /* z-index: 11; */
+  padding: 4rem 4rem 2.5rem 4rem;
 }
 
-.musk {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-}
-
-.button-close {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /* width: 100px; */
-  padding: 1em;
-  background-color: orange;
-  color: #fff;
-  border-radius: 20rem;
-  cursor: pointer;
-}
-
-.submit-button {
-  margin-left: 50px;
-}
-
-
-.modal-window > div{
+.modal-form-contents{
   display: flex;
-  /* flex-direction: column; */
   flex-flow: column;
+  justify-content: space-between;
   height: 100%;
 }
-.modal-form-button {
+
+.form-contents {
+  display: flex;
+  margin: 1rem 0;
+  border-bottom: 1px solid #000;
+}
+
+.form-items {
+  display: flex;
+  flex-flow: column;
+}
+
+.form-contents p:first-child {
+  width: 30vw;
+}
+
+.form-button {
   text-align: center;
   margin-top: auto;
 }
-.form-contents {
-  display: flex;
-  margin: 20px 0;
-  border-bottom: 1px solid #000;
+.button-left {
+  padding: 1em;
+  background-color: #FFFFFF;
+  color: #8D8D8D;
+  border-radius: 20rem;
+  cursor: pointer;
 }
-.form-contents p:first-child {
-  width: 30vw;
+.button-right {  
+  padding: 1em;
+  background-color: #039ECE;
+  color: #fff;
+  border-radius: 20rem;
+  cursor: pointer;
+  margin-left: 50px;
 }
