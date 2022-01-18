@@ -210,4 +210,38 @@
     flex-flow: column;
   } */
 
+  .form-contents {
+    flex-flow: column;
+  }
+  .form-contents p:first-child {
+    font-weight: bolder;
+    color: #8284BC;
+    margin-bottom: 10px;
+  }
+
+  .form-button {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+  }
+  .button-left {
+    margin-top: 30px;
+  }
+
+  .thanks_msg {
+    box-sizing: content-box;
+  }
+  .thanks_msg p {
+    font-size: 0.8rem;
+  }
+  .thanks_msg p:last-child {
+    /* text-align: center; */
+    display: flex;
+    flex-flow: column;
+  }
+  .button .text {
+    display: flex;
+    flex-flow: column;
+  }
+
 }

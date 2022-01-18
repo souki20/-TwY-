@@ -73,6 +73,7 @@
 .new-information {
   background-color: #ffffff;
   padding: 20px;
+  min-height: 160px;
 }
 
 .new-information-title {

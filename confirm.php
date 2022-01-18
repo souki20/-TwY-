@@ -59,6 +59,7 @@ EOT;
 </head>
 <body>
 
+  <h1>確認画面</h1>
   <div class="modal-window">
     <div class="modal-form-contents">
       <div class="form-items">
@@ -92,7 +93,7 @@ EOT;
         </div>
         <div class="form-contents">
           <p>お問い合わせ内容</p>
-          <p><?php echo htmlspecialchars($post['text']) ?></p>
+          <p><?php echo nl2br(htmlspecialchars($post['text'])) ?></p>
         </div>
       </div>
 

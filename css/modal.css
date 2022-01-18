@@ -10,20 +10,20 @@ button:hover,
 input:hover{
   opacity: 0.6;
 }
+h1 {
+  font-size: 1.3rem;
+  color: orange;
+  text-align: center;
+  margin-top: 2rem;
+}
 
 
 .modal-window {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 80vw;
   max-width: 700px;
-  height: 80vh;
+  margin: 1rem auto 0;
   background-color: #dfdddd;
   border-radius: 5px;
-  /* z-index: 11; */
-  padding: 4rem 4rem 2.5rem 4rem;
 }
 
 .modal-form-contents{
@@ -31,6 +31,7 @@ input:hover{
   flex-flow: column;
   justify-content: space-between;
   height: 100%;
+  padding: 3rem;
 }
 
 .form-contents {
@@ -42,6 +43,7 @@ input:hover{
 .form-items {
   display: flex;
   flex-flow: column;
+  margin-bottom: 30px;
 }
 
 .form-contents p:first-child {
@@ -49,6 +51,8 @@ input:hover{
 }
 
 .form-button {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
   margin-top: auto;
 }
@@ -65,5 +69,5 @@ input:hover{
   color: #fff;
   border-radius: 20rem;
   cursor: pointer;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
