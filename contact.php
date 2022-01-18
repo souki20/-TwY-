@@ -1,14 +1,10 @@
 <?php
-// header('Location: confirm.php');
 session_start();
 $error = [];
-// unset($_SESSION['form']);
-// echo '試し';
 
 // contact.phpのmethodはGETで呼び出される。送信ボタンを押すとPOSTで呼び出される。
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
   // postメソッドのデータを一括管理
-  // $post = filter_input_array(INPUT_POST);
   $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 
   // フォームの送信時にエラーをチェックする
@@ -292,54 +288,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="checkbox" name="check" <?php if($post['check'] == true) {echo 'checked';} ?> required><a href="./pdf/個人情報保護の基本方針 (1).pdf">個人情報保護の基本方針</a>に同意<br>
                 <input type="submit" id="pre-submit" value="確認画面へ">
               </div>
-
-
-              <!-- modal-window -->
-              <!-- <div class="modal-window">
-                <div class="">
-                  <div class="modal-form-contents">
-                    <div class="form-contents">
-                      <p>お問い合わせ区分</p>
-                      <p><?php echo $post['requirment'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>お客様名</p>
-                      <p><?php echo $post['name'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>お客様名フリガナ</p>
-                      <p><?php echo $post['name-kana'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>会社名/組織名</p>
-                      <p><?php echo $post['company'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>電話番号</p>
-                      <p><?php echo $post['phone'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>メールアドレス</p>
-                      <p><?php echo $post['meil'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>ご希望の連絡方法</p>
-                      <p><?php echo $post['contact'] ?></p>
-                    </div>
-                    <div class="form-contents">
-                      <p>お問い合わせ内容</p>
-                      <p><?php echo $post['text'] ?></p>
-                    </div>
-                  </div>
-                  <div class="modal-form-button">
-                    <button type="button" class="js-close button-close">入力画面に戻る</button>
-                    <input type="submit" class="js-close button-close submit-button" value="入力情報を送信">
-                  </div>
-                </div>
-              </div>
-              <div id="musk" class="musk"></div> -->
-
-
             </form>
 
           </div>
