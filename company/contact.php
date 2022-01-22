@@ -54,22 +54,32 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217793752-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-217793752-1');
+  </script>
+  <meta name="google-site-verification" content="2me5T-NPOyL2f3J5foPquwBFT434upz2FTa35fHPSVM" />
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="discription" content="株式会社TwYインベストメントの公式HPのお問い合わせページです">
   <title>TwY Investment Inc. </title>
-  <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/contents.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/bread-list.css">
-  <link rel="stylesheet" href="./css/modal.css">
-  <link rel="stylesheet" href="./css/validation.css">
-  <link rel="stylesheet" href="./css/lightbox.min.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/contents.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/bread-list.css">
+  <link rel="stylesheet" href="../css/lightbox.min.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/modal.css">
 </head>
 <body>
 
@@ -98,7 +108,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="nav-section">
         <nav class="nav">
           <ul class="nav-content">
-            <a class="nav-link" href="./index.html">
+            <a class="nav-link" href="../index.html">
               <li class="nav-item fast">
                 <div class="nav-title">
                   <p class="nav-title-ja">トップページ</p>
@@ -106,7 +116,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="./business.html">
+            <a class="nav-link" href="../company/business.html">
               <li class="nav-item">
                 <div class="nav-title">
                   <p class="nav-title-ja">事業内容</p>
@@ -114,7 +124,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="./information.html">
+            <a class="nav-link" href="../company/information.html">
               <li class="nav-item">
                 <div class="nav-title">
                   <p class="nav-title-ja">企業情報</p>
@@ -122,7 +132,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="./access.html">
+            <a class="nav-link" href="../company/access.html">
               <li class="nav-item">
                 <p class="nav-title">
                   <span class="nav-title-ja">アクセス</span>
@@ -130,7 +140,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </p>
               </li>
             </a>
-            <a class="nav-link" href="./contact.html">
+            <a class="nav-link" href="../company/contact.php">
               <li class="nav-item last">
                 <div class="nav-title">
                   <p class="nav-title-ja">お問い合わせ</p>
@@ -142,6 +152,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         </nav>
       </div>
     </div>
+
+
     
     <div class="contents-wrapper">
 
@@ -149,7 +161,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="bread-list-content">
         <nav>
           <ol class="bread-list">
-            <li><a href="./index.html">トップページ</a></li>
+            <li><a href="../index.html">トップページ</a></li>
             <li>お問い合わせ</li>
           </ol>
         </nav>
@@ -192,7 +204,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                     ?>
                   required>その他</label>
-                  <!-- <label for=""><input type="radio" name="requirement" value="" checked style="display: none;"></label> -->
                 </div>  
               </div>
               <div class="form-item">
@@ -267,7 +278,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                     ?>
                   required>メールアドレス</label>
-                  <!-- <label for=""><input type="radio" name="contact" value="" checked style="display: none;"></label> -->
                 </div>
               </div>
               <div class="form-item">
@@ -305,29 +315,28 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
           <nav class="menu-item">
             <ul class="menu-contents">
               <li class="menu-list">
-                <a class="menu-text-link01" href="./pdf/金融商品仲介業者の商号等の明示.pdf" target="_blank">
+                <a class="menu-text-link01" href="../pdf/金融商品仲介業者の商号等の明示.pdf" target="_blank">
                   <p class="menu-text01">明示事項</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="./pdf/弊社の勧誘方針.pdf" target="_blank">
+                <a class="menu-text-link01" href="../pdf/弊社の勧誘方針.pdf" target="_blank">
                   <p class="menu-text01">弊社の勧誘方針</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="./pdf/個人情報保護の基本方針 (1).pdf" target="_blank">
+                <a class="menu-text-link01" href="../pdf/個人情報保護の基本方針 (1).pdf" target="_blank">
                   <p class="menu-text01">個人情報保護の基本方針および個人情報の利用目的</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="./pdf/お客様本位の業務運営方針.pdf" target="_blank">
+                <a class="menu-text-link01" href="../pdf/お客様本位の業務運営方針.pdf" target="_blank">
                   <p class="menu-text01">お客様本位の業務運営方針</p>
                 </a>
               </li>
             </ul>
           </nav>
         </div>
-
       </div>
 
 
@@ -338,7 +347,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="footer">
 
         <div class="copyright">
-          <!-- <p class="copyright-content">Copyright 2012 Dental Clinic CO.,LTD All Rights Reserved.</p> -->
         </div>
 
         <div class="footer-address">
@@ -353,9 +361,5 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   </div>
   
-  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js"></script>
-  <script src="./js/script.js"></script> -->
 </body>
 </html>

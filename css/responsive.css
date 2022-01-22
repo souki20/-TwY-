@@ -1,3 +1,25 @@
+@media screen and (max-width:920px) {
+  .wrapper {
+    min-width: 768px;
+  }
+  .content-left {
+    width: 30%;
+  }
+  .content-right {
+    width: 65%;
+  }
+
+  /* トップページ */
+  .toppage-img img {
+    width: 100%;
+  }
+
+  /* アクセス */
+  .map-content-top iframe {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width:768px) {
   *,
   *::before,
@@ -153,6 +175,12 @@
     margin: 0 15px 0 0;
   }
 
+  /* パンクズリスト */
+
+  .bread-list-content {
+    height: auto;
+  }
+
 
   /* HOME以外 */
 
@@ -163,28 +191,22 @@
   }
 
 
+  /* 事業内容 */
 
-  /* パンクズリスト */
+  .inner-title01 {
+    border-bottom: solid 3px #8284BC;
+  }
 
-  .bread-list-content {
+  .business-contents-right {
+    display: none;
+  }
+  .business-contents-left {
+    width: 100%;
+  }
+  .business-contents {
     height: auto;
   }
 
-
-  /* 院長スタッフ紹介 */
-
-  .director-content {
-    display: block;
-  }
-
-  .staff-inner-left {
-    margin: 0;
-    text-align: center;
-  }
-
-  .staff-inner-left img {
-    max-width: 100%;
-  }
 
 
   /* アクセス */
@@ -204,11 +226,6 @@
 
 
   /* コンタクト */
-
-  /* .radio-button {
-    display: flex;
-    flex-flow: column;
-  } */
 
   .form-contents {
     flex-flow: column;
@@ -235,7 +252,6 @@
     font-size: 0.8rem;
   }
   .thanks_msg p:last-child {
-    /* text-align: center; */
     display: flex;
     flex-flow: column;
   }

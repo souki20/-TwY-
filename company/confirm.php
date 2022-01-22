@@ -25,8 +25,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 {$post['text']}
 EOT;
 
-  // echo $body;
-  // exit();
 
   if(isset($_POST['back'])) {
     header('Location: contact.php');
@@ -46,16 +44,27 @@ EOT;
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217793752-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-217793752-1');
+  </script>
+  <meta name="google-site-verification" content="2me5T-NPOyL2f3J5foPquwBFT434upz2FTa35fHPSVM" />
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="discription" content="株式会社TwYインベストメントの公式HPのお問い合わせページです">
   <title>TwY Investment Inc. </title>
-  <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/modal.css">
-  <link rel="stylesheet" href="./css/lightbox.min.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/modal.css">
+  <link rel="stylesheet" href="../css/lightbox.min.css">
+  <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
 
@@ -99,7 +108,6 @@ EOT;
 
       <form action="" method="POST">
         <div class="form-button">
-          <!-- <button type="button" class="button-close">入力画面に戻る</button> -->
           <input type="submit" name="back" class="button-left" value="内容を修正する">
           <input type="submit" name="send" class="button-right submit-button" value="入力情報を送信">
         </div>

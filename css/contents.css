@@ -146,7 +146,7 @@
   height: 50px;
   line-height: 50px;
   font-size: 123.1%;
-  border-bottom: solid 3px #8284BC;
+  /* border-bottom: solid 3px #8284BC; */
 }
 
 
@@ -158,25 +158,17 @@
   margin: 0 0 20px;
 }
 
-.shinnsatsubi-table table {
-  width: 100%;
-  border-top: solid #999 1px;
-  border-left: solid #999 1px;
+.business-contents {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
 }
-
-.shinnsatsubi-table th {
-  background-color: #d1d1d1;
-  border-right: solid #999 1px;
-  border-bottom: solid #999 1px;
-  text-align: center;
-  padding: 10px;
+.business-contents-left {
+  width: 50%;
 }
-
-.shinnsatsubi-table td {
-  border-right: solid #999 1px;
-  border-bottom: solid #999 1px;
-  text-align: center;
-  padding: 10px;
+.business-contents-right {
+  width: 30%;
+  transform: translate( 0, -10vh );
 }
 
 
