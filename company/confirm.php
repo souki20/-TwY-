@@ -21,6 +21,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 会社名/組織名：　{$post['company']}
 電話番号：　{$post['phone']}
 メールアドレス：　{$post['meil']}
+ご希望の連絡方法：　{$post['contact']}
 お問い合わせ内容：
 {$post['text']}
 EOT;
