@@ -122,7 +122,7 @@
 /* ### */
 
 
-/* ここからCLINIC */
+/* ここからbusiness */
 .content-right-title {
   font-size: 1.5em;
   background-image: linear-gradient(to top, #8284BC 0%, #070073 100%);
@@ -146,7 +146,7 @@
   height: 50px;
   line-height: 50px;
   font-size: 123.1%;
-  /* border-bottom: solid 3px #8284BC; */
+  border-bottom: solid 3px #8284BC;
 }
 
 
@@ -158,7 +158,7 @@
   margin: 0 0 20px;
 }
 
-.business-contents {
+/* .business-contents {
   display: flex;
   justify-content: space-between;
   height: 20vh;
@@ -169,16 +169,19 @@
 .business-contents-right {
   width: 30%;
   transform: translate( 0, -10vh );
+} */
+.business-contents-left img {
+  width: 100%;
 }
 
 
-/* ここまでがCLINIC */
+/* ここまでがbusiness */
 
 /* ### */
 
 
 
-/* ここからSERVICE */
+/* ここからInformation */
 
 .inner-title {
   margin: 0px;
@@ -188,43 +191,7 @@
   border-bottom: solid 3px #8284BC;
 }
 
-/* ここまでがSERVICE */
-
-/* ### */
-
-
-/* ここからSTAFF */
-
-.director-content {
-  display: flex;
-  margin: 0 0 30px 0;
-}
-
-.staff-inner-left {
-  margin: 0 20px 0 0 ;
-}
-
-.staff-inner-left p {
-  background-color: #8284BC;
-  color: #fff;
-  text-align: center;
-}
-
-.staff-inner-right p:first-child {
-  color: #8284BC;
-  font-size: 1.17em;
-  margin: 1em 0 1em 0;
-  font-weight: bold;
-}
-
-.content-right-item div:last-child img {
-  max-width: 100%;
-}
-
-.inner-title {
-  margin: 0 0 15px 0;
-}
-/* ここまでがSTAFF */
+/* ここまでがInformation */
 
 /* ### */
 
