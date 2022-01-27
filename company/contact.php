@@ -68,8 +68,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="discription" content="株式会社TwYインベストメントの公式HPのお問い合わせページです">
-  <title>TwY Investment Inc. </title>
+  <meta name="discription" content="企業理念である「真のウェルスマネジメントサービスを提供する」のもと、お客様と何代にも渡って共存していくことを目指し、中立・公正な立場で資産づくり・資産管理のお手伝いをさせていただきます。">
+  <title>株式会社TwYインベストメント | お問い合わせ</title>
   <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/style.css">
