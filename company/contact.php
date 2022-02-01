@@ -295,7 +295,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php if($error['check'] === 'blank'): ?>
                   <p class="error-input">＊チェックを入れてください</p>
                 <?php endif; ?>
-                <input type="checkbox" name="check" <?php if($post['check'] == true) {echo 'checked';} ?> required><a href="./pdf/個人情報保護の基本方針 (1).pdf">個人情報保護の基本方針</a>に同意<br>
+                <input type="checkbox" name="check" <?php if($post['check'] == true) {echo 'checked';} ?> required><a href="../pdf/個人情報保護の基本方針 (1).pdf">個人情報保護の基本方針</a>に同意<br>
                 <input type="submit" id="pre-submit" value="確認画面へ">
               </div>
             </form>
