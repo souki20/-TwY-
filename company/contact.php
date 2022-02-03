@@ -89,7 +89,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="header-wrapper">
       <div class="header-top">
         <h1 class="icon-left">
-          <a class="header-logo" href="">
+          <a rel="start" class="header-logo" href="../index.html">
             TwY Investment Inc.
           </a>
         </h1>
@@ -98,7 +98,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="header-call-section">
             <div class="header-call">
               <i class="fas fa-phone-alt fa-xs"></i>
-              <a class="tel-number" href="tel:+81-45-595-9758">045-595-9758</a>
+              <a rel="tel" class="tel-number" href="tel:+81-45-595-9758">045-595-9758</a>
             </div>
             <!-- <p class="header-time">予約受付時間 10:00~19:30 <span class="header-span">日祝 休診</span></p> -->
           </div>
@@ -108,7 +108,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="nav-section">
         <nav class="nav">
           <ul class="nav-content">
-            <a class="nav-link" href="../index.html">
+            <a rel="start" class="nav-link" href="../index.html">
               <li class="nav-item fast">
                 <div class="nav-title">
                   <p class="nav-title-ja">トップページ</p>
@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="../company/business.html">
+            <a rel="contents" class="nav-link" href="../company/business.html">
               <li class="nav-item">
                 <div class="nav-title">
                   <p class="nav-title-ja">事業内容</p>
@@ -124,7 +124,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="../company/information.html">
+            <a rel="contents" class="nav-link" href="../company/information.html">
               <li class="nav-item">
                 <div class="nav-title">
                   <p class="nav-title-ja">企業情報</p>
@@ -132,7 +132,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </li>
             </a>
-            <a class="nav-link" href="../company/access.html">
+            <a rel="contents" class="nav-link" href="../company/access.html">
               <li class="nav-item">
                 <p class="nav-title">
                   <span class="nav-title-ja">アクセス</span>
@@ -140,7 +140,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </p>
               </li>
             </a>
-            <a class="nav-link" href="../company/contact.php">
+            <a rel="contents" class="nav-link" href="../company/contact.php">
               <li class="nav-item last">
                 <div class="nav-title">
                   <p class="nav-title-ja">お問い合わせ</p>
@@ -161,7 +161,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="bread-list-content">
         <nav>
           <ol class="bread-list">
-            <li><a href="../index.html">トップページ</a></li>
+            <li><a rel="start" href="../index.html">トップページ</a></li>
             <li>お問い合わせ</li>
           </ol>
         </nav>
@@ -315,22 +315,22 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
           <nav class="menu-item">
             <ul class="menu-contents">
               <li class="menu-list">
-                <a class="menu-text-link01" href="../pdf/金融商品仲介業者の商号等の明示.pdf" target="_blank">
+                <a rel="license" class="menu-text-link01" href="../pdf/金融商品仲介業者の商号等の明示.pdf" target="_blank">
                   <p class="menu-text01">明示事項</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="../pdf/弊社の勧誘方針.pdf" target="_blank">
+                <a rel="license" class="menu-text-link01" href="../pdf/弊社の勧誘方針.pdf" target="_blank">
                   <p class="menu-text01">弊社の勧誘方針</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="../pdf/個人情報保護の基本方針 (1).pdf" target="_blank">
+                <a rel="license" class="menu-text-link01" href="../pdf/個人情報保護の基本方針 (1).pdf" target="_blank">
                   <p class="menu-text01">個人情報保護の基本方針および個人情報の利用目的</p>
                 </a>
               </li>
               <li class="menu-list">
-                <a class="menu-text-link01" href="../pdf/お客様本位の業務運営方針.pdf" target="_blank">
+                <a rel="license" class="menu-text-link01" href="../pdf/お客様本位の業務運営方針.pdf" target="_blank">
                   <p class="menu-text01">お客様本位の業務運営方針</p>
                 </a>
               </li>
