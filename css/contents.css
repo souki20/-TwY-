@@ -174,9 +174,7 @@
   width: 100%;
 }
 
-
 /* ここまでがbusiness */
-
 /* ### */
 
 
@@ -191,8 +189,11 @@
   border-bottom: solid 3px #8284BC;
 }
 
-/* ここまでがInformation */
+.information-item-title {
+  margin: 30px 0 5px;
+}
 
+/* ここまでがInformation */
 /* ### */
 
 
