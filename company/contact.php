@@ -325,8 +325,18 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </a>
               </li>
               <li class="menu-list">
-                <a rel="license" class="menu-text-link01" href="../pdf/個人情報保護の基本方針 (1).pdf" target="_blank">
-                  <p class="menu-text01">個人情報保護の基本方針および個人情報の利用目的</p>
+                <a rel="license" class="menu-text-link01" href="../pdf/個人情報保護宣言.pdf" target="_blank">
+                  <p class="menu-text01">個人情報保護宣言</p>
+                </a>
+              </li>
+              <li class="menu-list">
+                <a rel="license" class="menu-text-link01" href="../pdf/お客様の個人情報の利用目的.pdf" target="_blank">
+                  <p class="menu-text01">個人情報の利用目的</p>
+                </a>
+              </li>
+              <li class="menu-list">
+                <a rel="license" class="menu-text-link01" href="../pdf/金融商品仲介業に関する個人情報保護規程.pdf" target="_blank">
+                  <p class="menu-text01">金融商品仲介業に関する個人情報保護規定</p>
                 </a>
               </li>
               <li class="menu-list">
