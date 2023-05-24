@@ -240,7 +240,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php if($error['phone'] === 'blank'): ?>
                   <p class='error-input'>＊必須項目です</p>
                 <?php endif; ?>
-                <input type="text" placeholder="03-5210-1232" name="phone" value="<?php echo htmlspecialchars($post['phone']); ?>" required>
+                <input type="text" placeholder="01-2345-6789" name="phone" value="<?php echo htmlspecialchars($post['phone']); ?>" required>
               </div>
               <div class="form-item">
                 <div class="contact-label">
